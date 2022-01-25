@@ -26,6 +26,7 @@ public class NewTest11 {
   @AfterMethod
   public void afterMethod() {
 	  System.out.println("afterMethod");
+	  System.out.println("afterMethod");
   }
 
   @BeforeClass
