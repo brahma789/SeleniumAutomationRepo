@@ -20,6 +20,7 @@ public class NewTest11 {
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("beforeMethod");
+	  System.out.println("beforeMethod12");
   }
 
   @AfterMethod
