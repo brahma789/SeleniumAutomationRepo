@@ -1,4 +1,4 @@
-package org.SeleniumTestNG;
+package org.SeleniumTestNGcopy;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -10,25 +10,26 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class NewTestNG1 {
+public class NewTestNG4 {
   @Test
   public void f() {
 	  System.out.println("Test");
-}
+	  System.out.println("Test1");
+  }
   
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("beforeMethod");
-	  
+	  System.out.println("beforeMethod12");
   }
 
   @AfterMethod
   public void afterMethod() {
 	  System.out.println("afterMethod");
-	 
+	  System.out.println("afterMethod");
   }
 
-  @BeforeClass (enabled=false)
+  @BeforeClass
   public void beforeClass() {
 	  System.out.println("beforeClass");
   }
