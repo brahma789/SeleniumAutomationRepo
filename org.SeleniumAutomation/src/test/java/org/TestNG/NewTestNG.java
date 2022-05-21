@@ -14,6 +14,7 @@ public class NewTestNG {
   @Test (priority=1)
   public void f() {
 	  System.out.println("NewTestNG");
+	  
   }
   @BeforeMethod (enabled=true)	
   public void beforeMethod() {
