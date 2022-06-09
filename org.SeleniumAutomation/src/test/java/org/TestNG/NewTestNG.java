@@ -25,7 +25,6 @@ public class NewTestNG {
   public void afterMethod() {
 	  System.out.println("afterMethod TestNG");
   }
-
   @BeforeClass
   public void beforeClass() {
 	  System.out.println("beforeClass TestNG");
